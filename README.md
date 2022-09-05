@@ -5,3 +5,4 @@ atomiccounter benchmark
 
 - https://github.com/puzpuzpuz/xsync
 - https://github.com/line/garr/tree/main/adder
+- https://github.com/linxGnu/go-adder
