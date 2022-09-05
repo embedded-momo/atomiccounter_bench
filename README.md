@@ -17,6 +17,8 @@ The flowing is one of a typical test result, the format is manual adjusted for e
 
 Test environment is a MacBookPro with MacOS 12.5.1 and Apple M1 Pro chip.
 
+To reduce the test errors, there are 10 calls in each op.
+
 ```console
 % go test -bench .
 goos: darwin
