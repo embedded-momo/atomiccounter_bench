@@ -1,5 +1,13 @@
 github.com/chen3feng/atomiccounter v0.0.0-20220901044508-c5736db47969 h1:eZh2rF8TA1UCu1sBDM7BFnqTDguklftymkaJG2JHCg8=
 github.com/chen3feng/atomiccounter v0.0.0-20220901044508-c5736db47969/go.mod h1:ZCXVAJwp5ElMYpEGeExRpFBGdxLrf9hwBZusBFfZaR4=
+github.com/embedded-momo/fastcounter-go v0.0.0-20240817152352-4288da7b209a h1:dsMff/Lubqyc+P6QwhmbIecaCOPfYSs4aksfE6riLsw=
+github.com/embedded-momo/fastcounter-go v0.0.0-20240817152352-4288da7b209a/go.mod h1:SCfrqutGCuKzTfHjp16Qc1U7Tgwu0AhVUUZbhQapkKM=
+github.com/embedded-momo/fastcounter-go v0.0.0-20240817153436-2c756107489d h1:kSdAZL08dUCL0JO7tQYOlMK6fz7hVcNrD5oeWeveMqk=
+github.com/embedded-momo/fastcounter-go v0.0.0-20240817153436-2c756107489d/go.mod h1:SCfrqutGCuKzTfHjp16Qc1U7Tgwu0AhVUUZbhQapkKM=
+github.com/embedded-momo/fastcounter-go v0.0.0-20240818133022-ab8d76ffd5b9 h1:iAFXor8ByJCd7iphx3HHCmojzhrWPJ7tfvKleo5/9lQ=
+github.com/embedded-momo/fastcounter-go v0.0.0-20240818133022-ab8d76ffd5b9/go.mod h1:SCfrqutGCuKzTfHjp16Qc1U7Tgwu0AhVUUZbhQapkKM=
+github.com/embedded-momo/fastcounter-go v0.0.0-20240818140740-0dd93355e66a h1:w4Days51+Ydp8dZb7JSPmFKXRBafEGtRj7R5BA+lULA=
+github.com/embedded-momo/fastcounter-go v0.0.0-20240818140740-0dd93355e66a/go.mod h1:SCfrqutGCuKzTfHjp16Qc1U7Tgwu0AhVUUZbhQapkKM=
 github.com/linxGnu/go-adder v0.2.0 h1:5vI8SeW5Lz4xmRbf3lFYfTs+8cRUWjZEr5YvdToBqPc=
 github.com/linxGnu/go-adder v0.2.0/go.mod h1:t9zC6P+vQpG5iEtw4sinwsVqe52AuFvL4P1dVXHD46c=
 github.com/puzpuzpuz/xsync v1.4.3 h1:nS/Iqc4EnpJ8jm/MzJ+e3MUaP2Ys2mqXeEfoxoU0HaM=

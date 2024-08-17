@@ -8,6 +8,7 @@ import (
 	ga "github.com/linxGnu/go-adder"
 	"github.com/puzpuzpuz/xsync"
 	garr "go.linecorp.com/garr/adder"
+	"github.com/embedded-momo/fastcounter-go"
 )
 
 //go:norace
@@ -96,6 +97,19 @@ func BenchmarkAdd_GarrAdder(b *testing.B) {
 	})
 }
 
+
+func BenchmarkAdd_FastCounter(b *testing.B) {
+	b.SetParallelism(100)
+	counter := fastcounter.NewCounter()
+	b.RunParallel(func(pb *testing.PB) {
+		for pb.Next() {
+			for i := 0; i < batchSize; i++ {
+				counter.Add(1)
+			}
+		}
+	})
+}
+
 func BenchmarkRead_NonAtomic(b *testing.B) {
 	count := int64(0)
 	b.RunParallel(func(pb *testing.PB) {
@@ -157,6 +171,17 @@ func BenchmarkRead_GarrAdder(b *testing.B) {
 		for pb.Next() {
 			for i := 0; i < batchSize; i++ {
 				_ = counter.Sum()
+			}
+		}
+	})
+}
+
+func BenchmarkRead_FastCounter(b *testing.B) {
+	counter := fastcounter.NewCounter()
+	b.RunParallel(func(pb *testing.PB) {
+		for pb.Next() {
+			for i := 0; i < batchSize; i++ {
+				_ = counter.Read()
 			}
 		}
 	})
